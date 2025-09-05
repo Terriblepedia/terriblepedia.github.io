@@ -24,19 +24,24 @@
             <div class="collapse navbar-collapse justify-content-start align-center" id="navbarNav">
                 <ul class="navbar-nav mb-lg-0 mb-2">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+                        <a href="index.html" class="nav-link" aria-current="page">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="articles.html" class="nav-link">Articles</a>
+                        <a href="articles.html" class="nav-link active">Articles</a>
                     </li>
                     <li class="nav-item">
                         <a href="about.html" class="nav-link">About</a>
                     </li>
                 </ul>
+                <!-- Desktop theme switch button -->
+                <form class="d-none d-lg-flex ms-lg-auto mt-2 mt-lg-0">
+                    <button class="btn btn-outline-primary me-2 theme-toggle bi bi-circle-half" type="button"></button>
+                </form>
+                <!-- Mobile theme switch button (inside collapse) -->
+                <form class="d-lg-none mt-2">
+                    <button class="btn btn-outline-primary w-100 theme-toggle bi bi-circle-half" type="button"></button>
+                </form>
             </div>
-            <form class="d-flex ms-auto">
-                <button class="btn btn-outline-primary me-2 theme-toggle bi bi-circle-half" type="button"></button>
-            </form>
         </div>
      </nav>
     <!-- Navbar End -->
