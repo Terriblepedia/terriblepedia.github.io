@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     themeBg1.classList.add("light-earth-bg");
                 } else {
                     themeBg1.classList.remove("light-earth-bg");
-                    themeBg1.classList.add("eartg-bg");
+                    themeBg1.classList.add("earth-bg");
                 }
             }
         });
