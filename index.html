@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terriblepedia - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/terriblepedia-logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+     <nav class="navbar bg-body-tertiary navbar-expand-lg fixed-top shadow">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="assets/terriblepedia-logo.svg" alt="" width="30">
+                Terriblepedia
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-start align-center" id="navbarNav">
+                <ul class="navbar-nav mb-lg-0 mb-2">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="articles.html" class="nav-link">Articles</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex ms-auto">
+                <button class="btn btn-outline-primary me-2 theme-toggle bi bi-circle-half" type="button"></button>
+            </form>
+        </div>
+     </nav>
+    <!-- Navbar End -->
+
+    <!-- Spacer (dont remove) -->
+    <div style="height: 3.67rem;"></div>
+
+    <!-- Header -->
+    <header class="container-fluid earth-bg" id="theme-bg1">
+        <div class="container-lg text-center p-5">
+            <h1 class="fw-bold">Welcome to Terriblepedia</h1>
+            <p class="lead fw-light text-muted text-secondary">The world's worst wiki site.</p>
+            <button class="btn btn-primary btn-lg border-2 shadow">Articles</button>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <div class="container-fluid bg-body-tertiary text-center">
+        <div class="container-lg p-5 d-flex flex-column align-items-center">
+            <h1 class="fw-bold" data-aos="fade-up">Open-sourced</h1>
+            <p class="lead fw-light text-muted text-secondary" data-aos="fade-up">Terriblepedia is fully open-sourced.
+                You can find the source code on GitHub.
+            </p>
+            <a class="btn btn-outline-secondary btn-lg shadow border-2 mb-3" data-aos="fade-up" href="https://github.com">
+                <i class="bi bi-github"></i>
+                View
+            </a>
+
+            <img src="assets/code-1.png" alt="Source code image" class="img-fluid w-100 rounded mt-3" style="max-width:1000px;border: 10px solid #0D6EFD;" data-aos="fade-up">
+        </div>
+    </div>
+
+    <!-- Developer thingy -->
+    <section class="container-fluid">
+        <div class="container-lg text-center p-5">
+            <i class="bi bi-hammer" style="font-size: 8rem;"></i>
+            <h1 class="fw-bold">Want to contribute?</h1>
+            <p class="fw-light text-muted text-secondary lead">You can send a pull request on our GitHub repository.</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
