@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const logo = document.getElementById("logo");
     const logo2 = document.getElementById("nebulalogo");
 
-    AOS.init();
+    AOS.init(); 
 
     if (toggleBtn) {
         toggleBtn.addEventListener("click", () => {
